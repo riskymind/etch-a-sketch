@@ -31,8 +31,8 @@ input {
   border: none;
   color: inherit;
   font-family: inherit;
-  cursor: pointer;
   outline: none;
+  cursor: pointer;
 }
 
 /* HEADER */
@@ -71,6 +71,11 @@ main {
   padding: 10px 20px;
   border: 1px solid var(--primary-dark);
   border-radius: 5px;
+}
+
+.settings button.active {
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
 }
 
 .settings button,
@@ -131,6 +136,10 @@ main {
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 1.24) 0px 0px 30px 5px;
   display: grid;
+}
+
+.grid-element {
+  user-select: none;
 }
 
 /* FOOTER */
