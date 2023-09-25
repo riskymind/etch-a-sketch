@@ -140,6 +140,8 @@ main {
 
 .grid-element {
   user-select: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.24);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.24);
 }
 
 /* FOOTER */
